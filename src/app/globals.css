@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-family {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bg-header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-image-banner {
+  background-image: url(../../public/images/heroSection.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.section-bg-color {
+  background: linear-gradient(to right, #283606, #0f1500);
+}
+
+.ticket-card-bg-color {
+  background: linear-gradient(to right, #374909, #253301);
+}
+
+.even-slider {
+  aspect-ratio: 2/2;
+  margin-top: 12%;
+}
+
+@media (max-width: 1050px) and (min-width: 850px) {
+  .hero-section {
+    width: 150%;
+  }
+}
+
+/* @media (max-width:600px) {
+  .even-slider {
+    aspect-ratio: 1/2;
+  }
+} */
