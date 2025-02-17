@@ -34,6 +34,17 @@ body {
   background-color: white !important;
 }
 
+.swiper-pagination-bullet {
+  background-color: rgb(222, 222, 222) !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  left: 42% !important;
+}
+
 .section-bg-color {
   background: linear-gradient(to right, #283606, #0f1500);
 }
